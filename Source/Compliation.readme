@@ -28,3 +28,5 @@ Set to 'Extracted required libraries into generated JAR'.
 
 15) Click 'Finish'
 16) Call your jar using: 'java -jar <absolute file location of the .jar>'. Why java needs to be told a .jar is a jar with the -jar flag we'll never know.
+
+17) [optional] Get mildly annoyed when Java throws an incomprehensible error stack trace the length of Shakespeare's works when all it means is 'you defined that function wrong, silly!'
