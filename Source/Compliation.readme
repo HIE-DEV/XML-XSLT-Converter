@@ -1,0 +1,30 @@
+Steps for compiling into a runnable .jar in Eclipse:
+
+1) Download and install Eclipse
+2) Open Eclipse
+3) File -> New -> Project...
+4) Find 'Java Project'.
+5) Name it something like 'Compiler'.
+6) Make sure it's Java 1.8 or thereabouts.
+7) Click 'Finish'
+8a) Either Create a file called Compiler.java and put it under src, and copy the code in the file on this repo into it
+8b) Or add the file from this repo to it
+9) Jump through the pointless hoop exercises that Eclipse forces you to go through before you can compile:
+10) Right-click Compiler, click 'Run-as', click 'Java application'. If it's not there, scream at Eclipse for having an awful IDE and search for the solution online.
+11) Click File -> Export...
+12) In the 'type filter text' field, put 'runnable' or 'jar'
+13) Click on 'Runnable JAR file', click Next
+14) You'll be presented with something akin to the following options:
+
+Launch configuration:
+Set to whatever the name of your Java Project was (if this is blank, go back to step 9 and 10, then retry).
+
+Export destination:
+Specify which folder you'll want the .jar to be created in. Eclipse will remember these settings. Most people just throw it onto their desktop.
+
+Library handling:
+Set to 'Extracted required libraries into generated JAR'.
+(What's the difference between 'Extract', 'Package' and 'Copy'? We don't know either. Eclipse is vague like that. Extract runs faster, which is why we pick it. Some guy on the internet said so.)
+
+15) Click 'Finish'
+16) Call your jar using: 'java -jar <absolute file location of the .jar>'. Why java needs to be told a .jar is a jar with the -jar flag we'll never know.
