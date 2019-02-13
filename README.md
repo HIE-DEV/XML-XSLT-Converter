@@ -24,3 +24,7 @@ Would appear as:
     example.val
     
 Errors in .val are plain-text new line delimited.
+
+# Source code compilation
+
+Instructions on how to 'compile' the Compiler.java source code into a 'Runnable JAR file' can be found in the /Source/ folder in the .readme file. Compiled on Eclipse Jee 2018-09.
