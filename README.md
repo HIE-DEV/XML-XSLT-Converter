@@ -28,6 +28,12 @@ Would appear as:
     
 Errors in .val are plain-text new line delimited.
 
+# Example FHIR XSLTs
+
+Some example FHIR XSLTs can be found in HIE-DEV here:
+
+https://github.com/HIE-DEV/FHIR-XSLT
+
 # Source code compilation
 
 Instructions on how to 'compile' the Compiler.java source code into a 'Runnable JAR file' can be found in the /Source/ folder in the .readme file. Compiled on Eclipse Jee 2018-09.
