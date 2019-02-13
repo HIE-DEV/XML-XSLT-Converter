@@ -4,6 +4,7 @@ Converts XML into .html with an XSLT. Outputs validation/transformation error me
 Requires Java 8 (Java 1.8) or later.
 
 To call from the command line, run:
+
     java -jar <absolute location of the .jar> <absolute file location of XML> <absolute file location of XSLT> <directory to return files to> <enable transformer/validation error capture [optional]>
   
 For example (Windows):
